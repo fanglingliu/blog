@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "芳玲的博客",
+  "author": "芳玲",
+  "email": "1310370306@qq.com",
+  "private": true,
+  "hexo": {
+    "version": "3.7.1"
+  },
+  "scripts": {
+    "start": "hexo s",
+    "build": "hexo clean && hexo g",
+    "clean": "hexo clean",
+    "deploy": "hexo clean && hexo g && hexo d && hexo clean"
+  },
+  "dependencies": {
+    "hexo": "^3.2.0",
+    "hexo-deployer-git": "^0.3.1",
+    "hexo-generator-index": "^0.2.0",
+    "hexo-renderer-ejs": "^0.3.0",
+    "hexo-renderer-marked": "^0.3.0",
+    "hexo-renderer-stylus": "^0.3.1",
+    "hexo-server": "^0.2.0"
+  },
+  "devDependencies": {
+    "hexo-cli": "^1.1.0"
+  }
+}
