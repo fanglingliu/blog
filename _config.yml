@@ -79,4 +79,4 @@ theme: inside
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:fanglingliu/fanglingliu.github.io.git
+  repo: https://github.com/fanglingliu/fanglingliu.github.io.git
